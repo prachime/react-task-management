@@ -18,4 +18,5 @@ steps:
 - script: |
     npm install
     npm run build
+    swa deploy --app-location ./build --deployment-token 9d9bfa526ef5de1035bb256e3b0c365592de2eaeab2ad2ea7e25d0f71462165906-0618a1cb-d161-4cc2-81b8-2a932a76d675010051704ff0f210 --env prod
   displayName: 'npm install and build'
